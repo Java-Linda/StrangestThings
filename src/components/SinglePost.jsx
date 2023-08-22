@@ -1,3 +1,4 @@
+// to fect a single post if I got auth tokens working
 export const fetchSinglePost = async (postId) => {
     try {
         const response = await fetch(`${URL_POSTS}/posts/${postId}`);

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { fetchAllPosts } from "../API/Index";
 
+// getting all posts using useState
 export default function allPosts() {
   const [posts, setPosts] = useState ([]);
   const [error, setError] = useState (null);
@@ -18,6 +19,7 @@ export default function allPosts() {
       getAllPosts();
   }, []);
 
+  // using useParam to search within posts for parameters requested and filtering posts, setting them to lower case 
   const postsToDisplay = searchParam
     ? posts.filter((post) =>
         post.title.toLowerCase().includes(searchParam)

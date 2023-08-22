@@ -5,7 +5,7 @@ import LogOut from "./components/LogOut";
 import "./App.css";
 
 export default function App() {
-
+// I made all my routes and links on the same page, I orginally had them seperated to different components but why complicate things
 	return (
 		<>
         <header>
