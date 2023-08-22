@@ -11,7 +11,7 @@ export default function SignUpForm({token, setToken}) {
         //console.log("Hello");
 
         try{
-            const response = await fetch("https://fsa-jwt-practice.herokuapp.com/signup",{
+            const response = await fetch(" ",{
                 method:"POST",
                 body:JSON.stringify ({username},{password})
             })

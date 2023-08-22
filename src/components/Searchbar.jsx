@@ -40,12 +40,13 @@ export default function allPosts() {
             <div key={post.id}>
               <h2>{post.title}</h2>
               <h4>{post.description}</h4>
+              <h4>{post.price}</h4>
               <button
                 onClick={() => {
                   navigate(`/posts/${post.id}`);
                 }}
               >
-                Button
+                Message Here
               </button>
             </div>
           );
