@@ -38,8 +38,8 @@ export default function allPosts() {
             />
           </label>
         </div>
-        {postsToDisplay.map((post) => {
-          return (
+        {postsToDisplay.map((post) => (
+          //return (
             <div key={post.id}>
               <h2>{post.title}</h2>
               <h4>{post.description}</h4>
@@ -52,8 +52,8 @@ export default function allPosts() {
                 Message Here
               </button>
             </div>
-          );
-        })}
+          )
+       )}
       </div>
   );
 }

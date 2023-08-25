@@ -19,6 +19,7 @@ export default function App() {
                 <Route path="/Home" element={<Home />} />
                 <Route path="/AllPosts" element={<AllPosts />} />
                 <Route path="/LogOut" element={<LogOut />} />
+                <Route path="/SinglePost" element={<SinglePost />} />
             </Routes>
         </div>
 		</>
