@@ -2,6 +2,7 @@ import {Routes, Route, Link} from "react-router-dom";
 import AllPosts from "./components/AllPosts";
 import Home from "./components/Home";
 import LogOut from "./components/LogOut";
+import SinglePost from "./components/SinglePost"
 import "./App.css";
 
 export default function App() {
