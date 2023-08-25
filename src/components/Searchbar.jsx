@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { fetchAllPosts } from "../API/Index";
+import { navigate } from "react-router-dom";
 
 // getting all posts using useState
 export default function allPosts() {
