@@ -5,7 +5,7 @@ const URL_POSTS = `https://strangers-things.herokuapp.com/api/2306-GHP-ET-WEB-FT
 // getting all posts
 export async function fetchAllPosts(){
     try {
-        const response = await fetch(`${URL_POSTS}`)
+        const response = await fetch(`${URL_POSTS}`);
         const listings = await response.json();
         //const allPosts = listings.data.posts;
         return listings;
